@@ -1,289 +1,153 @@
-# Sadagana Atchutha Rao
+👋 Hi, I'm Sadagana Atchutha Rao
+☁️ AWS Cloud & DevOps Trainee | ECE Graduate | Aspiring Cloud & DevOps Engineer
+Bash
+$ cat profile.json
+{
+  "Name": "Sadagana Atchutha Rao",
+  "Education": "B.Tech in Electronics and Communication Engineering",
+  "Role": "AWS Cloud & DevOps Trainee",
+  "Focus": ["Infrastructure as Code", "CI/CD Pipeline Automation", "AWS Multi-Tier Architecture"],
+  "Achievement": "IEEE Best Paper Award Recipient 🥇",
+  "Motto": "Learn ➔ Build ➔ Automate ➔ Deploy ➔ Improve 🚀"
+}
+👨‍💻 About Me
+🎓 B.Tech Graduate in Electronics and Communication Engineering
 
-## AWS Cloud & DevOps | ECE Graduate | Aspiring Cloud & DevOps Engineer
+☁️ AWS Cloud & DevOps Trainee with hands-on experience in AWS Cloud infrastructure design & deployment
 
-I am an ECE graduate and AWS Cloud & DevOps trainee with hands-on learning in AWS, Linux, Git, GitHub, Maven, Jenkins, SonarQube, Nexus, Ansible, GitHub Actions, Tomcat, CI/CD, automation, monitoring, and cloud architecture.
+🐧 Proficient in Linux administration and EC2 instance management
 
-## Technical Skills
+🔧 Hands-on with Git, GitHub, Maven, Jenkins, and end-to-end CI/CD automation
 
-### AWS Cloud
-EC2, S3, EBS, EFS, RDS, DynamoDB, Lambda, API Gateway, SQS, ElastiCache, VPC, Subnets, Route Tables, Internet Gateway, NAT Gateway, VPC Endpoints, VPC Peering, Transit Gateway, Security Groups, NACL, ALB, Auto Scaling, Route 53, CloudFront, IAM, ACM, CloudWatch, CloudTrail, EventBridge, DataSync, DMS, Transfer Family, CloudFormation, Systems Manager.
+⚙️ Skilled in Ansible configuration management and infrastructure automation
 
-### DevOps
-Git, GitHub, Maven, Jenkins, Jenkins Pipelines, SonarQube, Nexus Repository, Ansible, GitHub Actions, CI/CD, Configuration Management, Deployment Automation.
+📦 Experienced with SonarQube, Nexus Repository, and artifact management pipelines
 
-### Operating Systems
-Linux, Red Hat Enterprise Linux.
+🌐 Practical experience deploying applications on Apache Tomcat
 
-### Databases
-MySQL, PostgreSQL, DynamoDB, Redis, Memcached.
+📊 Focused on high availability, automated backup strategies, and monitoring
 
-### Application / Web
-Java, Maven, Tomcat, Nginx, REST APIs.
+🏗️ Designed and deployed enterprise AWS 3-Tier Architectures and serverless workflows
 
----
+🏆 IEEE Best Paper Award recipient at an IEEE conference hosted by NIT Meghalaya
 
-# Featured Projects
+📚 Continuous learner focused on cloud native and automation practices
 
-## 1. AWS 3-Tier Architecture
+🛠️ Technical Skills & Ecosystem
+☁️ Cloud Platforms & Core Infrastructure
+🔧 DevOps & CI/CD Toolchain
+🐧 Operating Systems & Databases
+🔨 Developer Utilities
+🚀 DevOps & AWS Projects
+🔥 1. Automated CI/CD Deployment Pipeline
+Plaintext
+[ Developer ] ➔ [ GitHub ] ──(Webhook)──► [ Jenkins CI/CD ]
+                                                │
+          ┌─────────────────────────────────────┼─────────────────────────────────────┐
+          ▼                                     ▼                                     ▼
+   (Checkout / Build)                  (SonarQube Analysis)                  (Store Artifact)
+      Apache Maven                         Code Quality                        Nexus / AWS S3
+                                                │                                     │
+                                                └──────────────────┬──────────────────┘
+                                                                   ▼
+                                                       [ Ansible Automation ]
+                                                                   │
+                                                                   ▼
+                                                       [ Tomcat Worker Nodes ]
+Tech Stack: GitHub, Jenkins, Maven, SonarQube, Nexus Repository, AWS S3, Ansible, Apache Tomcat, AWS EC2.
 
-- Configured VPC with public and private subnets.
-- Configured Security Groups and routing.
-- Deployed EC2 Web and Application layers.
-- Configured Application Load Balancer.
-- Deployed RDS MySQL in a private subnet.
-- Implemented Auto Scaling.
-- Configured ACM, Route 53 and CloudFront.
+Key Implementation Highlights:
 
-### Architecture
-```text
-Users
-  |
-Route 53
-  |
-CloudFront
-  |
-ALB
-  |
-Web Layer
-  |
-Application Layer
-  |
-RDS MySQL
-```
+Configured Jenkins & Ansible integration on AWS EC2 nodes with SSH authentication.
 
-## 2. Jenkins CI/CD Pipeline with Tomcat
+Automated application building using Maven and generated .war artifacts.
 
-### Tools
-GitHub, Jenkins, Maven, SonarQube, Nexus Repository, Ansible, Tomcat.
+Enforced Quality Gates using SonarQube scanning for bugs, code smells, and vulnerabilities.
 
-### Pipeline
-```text
-Developer
-   |
-GitHub
-   |
-Jenkins
-   |
-Maven Build
-   |
-Testing
-   |
-SonarQube Analysis
-   |
-WAR Artifact
-   |
-Nexus / S3
-   |
-Ansible
-   |
-Tomcat
-```
+Automated artifact archiving to Nexus Repository and Amazon S3.
 
-### Implementation
-- Integrated GitHub with Jenkins.
-- Configured Maven builds.
-- Created Jenkins pipelines.
-- Added SonarQube code analysis.
-- Published build artifacts.
-- Used Ansible for deployment automation.
-- Deployed Java WAR applications to Tomcat.
+Executed automated application deployments onto Tomcat server nodes using Ansible playbooks with Dev/Test/Prod parameterization.
 
-## 3. AWS EC2 Web Application and Blue-Green Deployment
+🏗️ 2. AWS 3-Tier High-Availability Architecture
+Plaintext
+                              Route 53 (DNS)
+                                    │
+                            CloudFront (CDN)
+                                    │
+                         External ALB (Public)
+                                    │
+                 ┌──────────────────┴──────────────────┐
+                 ▼                                     ▼
+           Web Layer (EC2)                       Web Layer (EC2)
+                 │                                     │
+                 └──────────────────┬──────────────────┘
+                                    ▼
+                          Internal ALB (Private)
+                                    │
+                        Application Layer (EC2 ASG)
+                                    │
+                          Internal ALB (Private)
+                                    │
+                           Database Layer (RDS)
+AWS Services: VPC, Public & Private Subnets, Security Groups, EC2, ALB, Auto Scaling, RDS MySQL, ACM, Route 53, CloudFront, S3.
 
-- Launched Linux EC2 instances.
-- Configured web applications.
-- Created Application Load Balancer and Target Groups.
-- Configured health checks.
-- Practiced Blue-Green deployment.
-- Configured HTTPS using ACM.
-- Configured DNS using Route 53.
+Key Implementation Highlights:
 
-## 4. Serverless Employee Management Application
+Provisioned secure networking layout isolating Database and Application tiers inside private subnets.
 
-### AWS Services
-S3, API Gateway, Lambda, SQS, DynamoDB, CloudWatch.
+Configured Application Load Balancers (ALB) and Auto Scaling groups to achieve high availability.
 
-### Architecture
-```text
-S3
- |
-API Gateway
- |
-Producer Lambda
- |
-SQS
- |
-Consumer Lambda
- |
-DynamoDB
- |
-CloudWatch
-```
+Attached AWS Certificate Manager (ACM) SSL/TLS certificates and routed traffic globally via Route 53 and CloudFront.
 
-Event-driven serverless architecture using managed AWS services.
+⚡ 3. Serverless Workflows
+📬 Employee Management System
+Plaintext
+S3 ➔ API Gateway ➔ Producer Lambda ➔ SQS Queue ➔ Consumer Lambda ➔ DynamoDB
+Built an asynchronous processing pipeline decoupling API traffic using SQS queues and storing record states in Amazon DynamoDB.
 
-## 5. AWS Data Migration and Storage Projects
+📝 Serverless Registration System
+Plaintext
+S3 ➔ API Gateway ➔ AWS Lambda ➔ Amazon RDS (MySQL)
+Designed a lightweight web application architecture processing incoming registration requests directly into Amazon RDS.
 
-### AWS DataSync
-- Configured DataSync source and destination.
-- Worked with S3 and EFS.
-- Configured DataSync tasks.
+🚀 4. Full-Stack AWS Application Deployment
+Plaintext
+User ➔ Nginx ➔ React Frontend ➔ Node.js API ➔ Redis Cache ➔ Amazon RDS (MySQL)
+Deployed a multi-tier microservice stack incorporating Nginx reverse proxying, Redis in-memory caching, and RDS relational database backends.
 
-### AWS DMS
-- Worked with source and target databases.
-- Configured replication instance.
-- Practiced database migration concepts using PostgreSQL.
+☁️ AWS Skill & Service Deep-Dive
+**🔍 Expand to View Detailed AWS Capabilities**
 
-### Storage
-- Worked with EBS volumes.
-- Created and restored snapshots.
-- Resized EBS volumes.
-- Created AMIs.
-- Practiced EBS encryption and cross-region snapshot copy.
-- Worked with EFS.
-- Practiced backup and recovery concepts.
+Compute & Automation: EC2, Lambda, Auto Scaling, Apache setup via User Data, CloudWatch EventBridge automation for EC2 power scheduling.
 
-## 6. AWS RDS Projects
+Storage & Backups: EBS volume resizing (30GB to 50GB live), EBS encrypted snapshots, AMI cross-region replication, EFS, DataSync, DLM lifecycle management.
 
-- Worked with MySQL and PostgreSQL.
-- Configured RDS instances.
-- Practiced database connectivity.
-- Created database snapshots.
-- Worked with backups and recovery.
-- Practiced Multi-AZ concepts.
-- Worked with cross-region read replica concepts.
-- Practiced restoring databases and exporting data to S3.
+Networking & Security: Custom VPCs, Public/Private Subnets, Route Tables, IGW, NAT Gateways, Security Groups, NACLs, VPC Endpoints, VPC Peering, Transit Gateway, IAM roles & policies.
 
-## 7. AWS Full-Stack Application
+Databases & Caching: RDS (MySQL & PostgreSQL) Multi-AZ deployments, Read Replica promotion, DynamoDB, ElastiCache (Redis & Memcached caching policies).
 
-Worked with React, Node.js, Nginx, Redis, Amazon RDS MySQL and Amazon EC2.
+Migration & Analytics: AWS DMS, AWS DataSync migrations from S3 to EFS, Storage Gateway.
 
-### Request Flow
-```text
-User
- |
-Nginx
- |
-React
- |
-Node.js API
- |
-Redis
- |
-RDS MySQL
-```
+IaC & Management: Infrastructure provisioning using CloudFormation stacks, AWS Systems Manager.
 
----
+🏆 Honors & Achievements
+🥇 IEEE Best Paper Award
+Paper Title: Impact of Thermal Induced Resonant Frequency Shift on Resonant Inverters
 
-# Ansible
+Conference: IEEE International Conference hosted by NIT Meghalaya
 
-Hands-on learning with Ansible automation and configuration management.
+Core Research: Thermal drift behavior, Zero Voltage Switching (ZVS), and resonant inverter optimization.
 
-### Topics Covered
-- Installation and inventory
-- Ad-hoc commands and modules
-- Playbooks
-- Variables
-- Tags
-- Loops and dictionaries
-- Handlers
-- Blocks, Rescue and Always
-- Conditions
-- Lookups
-- Jinja2 Templates
-- Strategies
-- Roles and Ansible Galaxy
-- Ansible Vault
-- Async and Polling
-- Import and Include
-- Ansible Collections
-- AWS module integration
+📈 GitHub Analytics & Streak
 
-# GitHub Actions
+🐍 Contribution Activity Graph
+🤝 Connect With Me
+[
 
-- Workflows
-- Events
-- Jobs
-- Steps
-- Actions
-- Runners
-- Environments
-- Secrets
-- Caching
-- Maven build and test
-- Artifact handling
-- Tomcat deployment
-- SonarQube integration
-- Hosted and self-hosted runners
+](https://www.linkedin.com/in/sadagana-atchutha-rao/)
+[
 
-# Linux
+](mailto:atchuth142@gmail.com)
+[
 
-- File and directory management
-- Users and groups
-- Permissions
-- Processes
-- Package management
-- Services
-- SSH
-- File searching
-- Text processing
-- grep
-- sed
-- vim
-- Shell commands
-- Soft links
-- Server administration
-
-# Learning Journey
-
-```text
-AWS Cloud
-    |
-Linux
-    |
-Git & GitHub
-    |
-Maven
-    |
-Jenkins
-    |
-SonarQube & Nexus
-    |
-Ansible
-    |
-GitHub Actions
-    |
-CI/CD & Cloud Automation
-```
-
-# Education
-
-## B.Tech – Electrical and Electronics Engineering
-**Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai**
-
-2022 – 2026
-
-# Achievement
-
-## IEEE Best Paper Award
-
-Presented research work titled:
-
-**Impact of Thermal Induced Resonant Frequency Shift on Resonant Inverters**
-
-Presented at the **IEEE North-East India International Energy Conversion Conference and Exhibition (NE-IECCE 2026)**.
-
-# Career Objective
-
-To begin my career in Cloud and DevOps, where I can apply my hands-on knowledge of AWS, Linux, CI/CD, automation, configuration management, and cloud infrastructure while continuously improving my technical skills.
-
-# Connect With Me
-
-- LinkedIn: https://www.linkedin.com/in/sadagana-atchutha-rao
-- GitHub: https://github.com/Sadagana-Atchutha-Rao
-- Instagram: https://www.instagram.com/its_mee_atchuth
-
----
-
-**Sadagana Atchutha Rao**
+](https://github.com/Sadagana-Atchutha-Rao)
