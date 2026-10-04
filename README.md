@@ -1,5 +1,3 @@
-
-
 # 👋 Hi, I'm Sadagana Atchutha Rao
 
 ### ☁️ AWS Cloud & DevOps Trainee | ECE Graduate | Aspiring Cloud & DevOps Engineer
@@ -46,13 +44,13 @@
 
 ## ☁️ Cloud
 
-`AWS` `Cloud Computing` `Cloud Infrastructure`
+AWS Cloud Computing Cloud Infrastructure
 
-`High Availability` `Scalability` `Automation`
+High Availability Scalability Automation
 
-`Load Balancing` `Auto Scaling` `Monitoring`
+Load Balancing Auto Scaling Monitoring
 
-`Blue-Green Deployment`
+Blue-Green Deployment
 
 ---
 
@@ -60,117 +58,117 @@
 
 ### Compute
 
-`EC2` `Lambda` `Auto Scaling`
+EC2 Lambda Auto Scaling
 
 ### Storage
 
-`S3` `EBS` `EFS` `Storage Gateway`
+S3 EBS EFS Storage Gateway
 
 ### Database
 
-`RDS` `DynamoDB` `ElastiCache`
+RDS DynamoDB ElastiCache
 
 ### Networking
 
-`VPC` `Subnets` `Route Tables`
+VPC Subnets Route Tables
 
-`Internet Gateway` `NAT Gateway`
+Internet Gateway NAT Gateway
 
-`VPC Peering` `Transit Gateway`
+VPC Peering Transit Gateway
 
-`VPC Endpoints` `NACL` `Security Groups`
+VPC Endpoints NACL Security Groups
 
-`ALB` `Route 53` `CloudFront`
+ALB Route 53 CloudFront
 
 ### Security & Management
 
-`IAM` `ACM` `Systems Manager`
+IAM ACM Systems Manager
 
 ### Monitoring & Automation
 
-`CloudWatch` `CloudTrail` `EventBridge`
+CloudWatch CloudTrail EventBridge
 
 ### Migration & Transfer
 
-`DataSync` `DMS` `Transfer Family`
+DataSync DMS Transfer Family
 
 ### Application & Serverless
 
-`API Gateway` `SQS`
+API Gateway SQS
 
-`Lambda` `DynamoDB`
+Lambda DynamoDB
 
 ### Infrastructure
 
-`CloudFormation`
+CloudFormation
 
 ---
 
 # 🔧 DevOps Tools
 
-`Git`
+Git
 
-`GitHub`
+GitHub
 
-`Maven`
+Maven
 
-`Jenkins`
+Jenkins
 
-`SonarQube`
+SonarQube
 
-`Nexus Repository`
+Nexus Repository
 
-`Ansible`
+Ansible
 
-`GitHub Actions`
+GitHub Actions
 
-`Tomcat`
+Tomcat
 
 ---
 
 # 🐧 Operating Systems
 
-`Linux`
+Linux
 
-`Amazon Linux`
+Amazon Linux
 
-`Red Hat`
+Red Hat
 
-`Ubuntu`
+Ubuntu
 
-`Windows Server`
+Windows Server
 
 ---
 
 # 🗄️ Databases
 
-`MySQL`
+MySQL
 
-`PostgreSQL`
+PostgreSQL
 
-`Amazon RDS`
+Amazon RDS
 
-`DynamoDB`
+DynamoDB
 
-`Redis`
+Redis
 
-`Memcached`
+Memcached
 
 ---
 
 # 🔨 Other Tools
 
-`PuTTY`
+PuTTY
 
-`PuTTYgen`
+PuTTYgen
 
-`MobaXterm`
+MobaXterm
 
-`FileZilla`
+FileZilla
 
-`pgAdmin`
+pgAdmin
 
-`SQL Workbench`
+SQL Workbench
 
 ---
 
@@ -178,7 +176,7 @@
 
 ## 🌐 EC2 Web Application & Blue-Green Deployment
 
-**AWS:** EC2 • ALB • Target Groups • Route 53 • ACM
+*AWS:* EC2 • ALB • Target Groups • Route 53 • ACM
 
 - Deployed web applications on EC2.
 - Automated Apache installation using EC2 User Data.
@@ -193,7 +191,7 @@
 
 ## 📊 CloudWatch Monitoring & EC2 Automation
 
-**AWS:** CloudWatch • Lambda • EventBridge • IAM • EC2
+*AWS:* CloudWatch • Lambda • EventBridge • IAM • EC2
 
 - Created CloudWatch CPU alarms.
 - Configured CloudWatch monitoring.
@@ -206,7 +204,7 @@
 
 ## 💾 AWS Storage & Backup
 
-**AWS:** EBS • S3 • AMI • Snapshots • DLM
+*AWS:* EBS • S3 • AMI • Snapshots • DLM
 
 - Attached and detached EBS volumes.
 - Increased EBS root volume from 30 GB to 50 GB.
@@ -221,7 +219,7 @@
 
 ## 🔄 AWS DataSync
 
-**AWS:** DataSync • S3 • EFS • EC2
+*AWS:* DataSync • S3 • EFS • EC2
 
 - Created S3 and EFS resources.
 - Configured DataSync Agent.
@@ -235,7 +233,7 @@
 
 ## 🗄️ Amazon RDS
 
-**AWS:** RDS • MySQL • PostgreSQL
+*AWS:* RDS • MySQL • PostgreSQL
 
 - Created MySQL and PostgreSQL RDS databases.
 - Configured Security Groups.
@@ -251,7 +249,7 @@
 
 ## 🌐 AWS VPC & Networking
 
-**AWS:** VPC • Subnets • Route Tables • IGW • NAT • NACL
+*AWS:* VPC • Subnets • Route Tables • IGW • NAT • NACL
 
 - Created VPC architecture.
 - Configured public and private subnets.
