@@ -958,9 +958,6 @@ Deployment
  ↓
 Monitoring
 
-
----
-
 📈 GitHub Stats
 
 <p align="center">
