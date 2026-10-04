@@ -1,153 +1,183 @@
 👋 Hi, I'm Sadagana Atchutha Rao
-☁️ AWS Cloud & DevOps Trainee | ECE Graduate | Aspiring Cloud & DevOps Engineer
-Bash
-$ cat profile.json
-{
-  "Name": "Sadagana Atchutha Rao",
-  "Education": "B.Tech in Electronics and Communication Engineering",
-  "Role": "AWS Cloud & DevOps Trainee",
-  "Focus": ["Infrastructure as Code", "CI/CD Pipeline Automation", "AWS Multi-Tier Architecture"],
-  "Achievement": "IEEE Best Paper Award Recipient 🥇",
-  "Motto": "Learn ➔ Build ➔ Automate ➔ Deploy ➔ Improve 🚀"
-}
+
+☁️ AWS Cloud & DevOps Trainee | ECE Fresher | Aspiring Cloud/DevOps Engineer
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=AWS+Cloud+%26+DevOps+Enthusiast;Aspiring+Cloud+DevOps+Engineer;Linux+%7C+AWS+%7C+Git+%7C+Automation;Always+Learning+%26+Building&center=true&width=600&height=50">
+</p>---
+
 👨‍💻 About Me
-🎓 B.Tech Graduate in Electronics and Communication Engineering
 
-☁️ AWS Cloud & DevOps Trainee with hands-on experience in AWS Cloud infrastructure design & deployment
+- 🎓 B.Tech Graduate in Electronics and Communication Engineering
+- ☁️ AWS Cloud & DevOps Trainee
+- 🚀 Aspiring Cloud/DevOps Engineer
+- 🐧 Hands-on experience with Linux and EC2 administration
+- 🔧 Practicing Git, GitHub, AWS and cloud infrastructure
+- ⚙️ Interested in automation, monitoring, deployment and high availability
+- 🏆 IEEE Best Paper Award recipient
+- 📚 Continuously learning and building hands-on projects
 
-🐧 Proficient in Linux administration and EC2 instance management
+---
 
-🔧 Hands-on with Git, GitHub, Maven, Jenkins, and end-to-end CI/CD automation
+🛠️ Technical Skills
 
-⚙️ Skilled in Ansible configuration management and infrastructure automation
+☁️ Cloud & DevOps
 
-📦 Experienced with SonarQube, Nexus Repository, and artifact management pipelines
+"AWS" "Cloud Computing" "Cloud Infrastructure" "Load Balancing" "Auto Scaling" "Monitoring" "Automation" "Blue-Green Deployment"
 
-🌐 Practical experience deploying applications on Apache Tomcat
+☁️ AWS Services
 
-📊 Focused on high availability, automated backup strategies, and monitoring
+"EC2" "S3" "EBS" "EFS" "RDS" "IAM" "VPC" "ALB" "CloudWatch" "Lambda" "EventBridge" "Route 53" "ACM" "DataSync" "Storage Gateway" "Systems Manager" "Transfer Family"
 
-🏗️ Designed and deployed enterprise AWS 3-Tier Architectures and serverless workflows
+🗄️ Databases
 
-🏆 IEEE Best Paper Award recipient at an IEEE conference hosted by NIT Meghalaya
+"Amazon RDS" "PostgreSQL" "MySQL" "Read Replicas" "Database Snapshots" "Backup & Restore"
 
-📚 Continuous learner focused on cloud native and automation practices
+🐧 Operating Systems
 
-🛠️ Technical Skills & Ecosystem
-☁️ Cloud Platforms & Core Infrastructure
-🔧 DevOps & CI/CD Toolchain
-🐧 Operating Systems & Databases
-🔨 Developer Utilities
-🚀 DevOps & AWS Projects
-🔥 1. Automated CI/CD Deployment Pipeline
-Plaintext
-[ Developer ] ➔ [ GitHub ] ──(Webhook)──► [ Jenkins CI/CD ]
-                                                │
-          ┌─────────────────────────────────────┼─────────────────────────────────────┐
-          ▼                                     ▼                                     ▼
-   (Checkout / Build)                  (SonarQube Analysis)                  (Store Artifact)
-      Apache Maven                         Code Quality                        Nexus / AWS S3
-                                                │                                     │
-                                                └──────────────────┬──────────────────┘
-                                                                   ▼
-                                                       [ Ansible Automation ]
-                                                                   │
-                                                                   ▼
-                                                       [ Tomcat Worker Nodes ]
-Tech Stack: GitHub, Jenkins, Maven, SonarQube, Nexus Repository, AWS S3, Ansible, Apache Tomcat, AWS EC2.
+"Linux" "Red Hat" "Amazon Linux" "Windows Server"
 
-Key Implementation Highlights:
+🔧 Tools
 
-Configured Jenkins & Ansible integration on AWS EC2 nodes with SSH authentication.
+"Git" "GitHub" "PuTTY" "PuTTYgen" "MobaXterm" "FileZilla" "pgAdmin" "SQL Workbench"
 
-Automated application building using Maven and generated .war artifacts.
+---
 
-Enforced Quality Gates using SonarQube scanning for bugs, code smells, and vulnerabilities.
+🚀 AWS & DevOps Projects
 
-Automated artifact archiving to Nexus Repository and Amazon S3.
+🌐 EC2 Web Application & Blue-Green Deployment
 
-Executed automated application deployments onto Tomcat server nodes using Ansible playbooks with Dev/Test/Prod parameterization.
+EC2 • ALB • Target Groups • Route 53 • ACM • HTTPS
 
-🏗️ 2. AWS 3-Tier High-Availability Architecture
-Plaintext
-                              Route 53 (DNS)
-                                    │
-                            CloudFront (CDN)
-                                    │
-                         External ALB (Public)
-                                    │
-                 ┌──────────────────┴──────────────────┐
-                 ▼                                     ▼
-           Web Layer (EC2)                       Web Layer (EC2)
-                 │                                     │
-                 └──────────────────┬──────────────────┘
-                                    ▼
-                          Internal ALB (Private)
-                                    │
-                        Application Layer (EC2 ASG)
-                                    │
-                          Internal ALB (Private)
-                                    │
-                           Database Layer (RDS)
-AWS Services: VPC, Public & Private Subnets, Security Groups, EC2, ALB, Auto Scaling, RDS MySQL, ACM, Route 53, CloudFront, S3.
+- Deployed Villa Agency and Klassy Cafe web applications on multiple EC2 instances.
+- Automated Apache installation and application deployment using EC2 User Data.
+- Configured Application Load Balancer, Target Groups and health checks.
+- Implemented path-based routing.
+- Practiced Blue-Green Deployment by switching traffic between application environments.
+- Configured HTTPS using AWS Certificate Manager and Load Balancer Port 443.
+- Explored Route 53 integration for DNS and certificate validation.
 
-Key Implementation Highlights:
+---
 
-Provisioned secure networking layout isolating Database and Application tiers inside private subnets.
+📊 CloudWatch Monitoring & EC2 Automation
 
-Configured Application Load Balancers (ALB) and Auto Scaling groups to achieve high availability.
+CloudWatch • Lambda • EventBridge • IAM • EC2
 
-Attached AWS Certificate Manager (ACM) SSL/TLS certificates and routed traffic globally via Route 53 and CloudFront.
+- Created CloudWatch alarms based on EC2 CPU utilization.
+- Configured EventBridge rules for EC2 state-change events.
+- Created Lambda automation for scheduled EC2 Start and Stop operations.
+- Configured IAM permissions required for Lambda and EC2 automation.
+- Explored CloudWatch Logs and EC2 monitoring.
 
-⚡ 3. Serverless Workflows
-📬 Employee Management System
-Plaintext
-S3 ➔ API Gateway ➔ Producer Lambda ➔ SQS Queue ➔ Consumer Lambda ➔ DynamoDB
-Built an asynchronous processing pipeline decoupling API traffic using SQS queues and storing record states in Amazon DynamoDB.
+---
 
-📝 Serverless Registration System
-Plaintext
-S3 ➔ API Gateway ➔ AWS Lambda ➔ Amazon RDS (MySQL)
-Designed a lightweight web application architecture processing incoming registration requests directly into Amazon RDS.
+🔄 AWS DataSync Data Migration
 
-🚀 4. Full-Stack AWS Application Deployment
-Plaintext
-User ➔ Nginx ➔ React Frontend ➔ Node.js API ➔ Redis Cache ➔ Amazon RDS (MySQL)
-Deployed a multi-tier microservice stack incorporating Nginx reverse proxying, Redis in-memory caching, and RDS relational database backends.
+DataSync • S3 • EFS • EC2
 
-☁️ AWS Skill & Service Deep-Dive
-**🔍 Expand to View Detailed AWS Capabilities**
+- Created S3 and EFS resources for data migration.
+- Configured DataSync Agent, source location, destination location and transfer task.
+- Transferred data from S3 to EFS using AWS DataSync.
+- Mounted EFS on an EC2 instance and verified transferred data.
+- Explored DataSync architecture for on-premises-to-AWS data migration.
 
-Compute & Automation: EC2, Lambda, Auto Scaling, Apache setup via User Data, CloudWatch EventBridge automation for EC2 power scheduling.
+---
 
-Storage & Backups: EBS volume resizing (30GB to 50GB live), EBS encrypted snapshots, AMI cross-region replication, EFS, DataSync, DLM lifecycle management.
+💾 AWS Storage & Backup Management
 
-Networking & Security: Custom VPCs, Public/Private Subnets, Route Tables, IGW, NAT Gateways, Security Groups, NACLs, VPC Endpoints, VPC Peering, Transit Gateway, IAM roles & policies.
+EBS • S3 • AMI • Snapshots • DLM
 
-Databases & Caching: RDS (MySQL & PostgreSQL) Multi-AZ deployments, Read Replica promotion, DynamoDB, ElastiCache (Redis & Memcached caching policies).
+- Practiced EBS volume attach and detach operations.
+- Migrated volumes between Availability Zones using snapshots.
+- Increased EBS root volume capacity from 30 GB to 50 GB.
+- Created AMIs from Windows and Linux EC2 instances.
+- Practiced encrypted snapshots, AMI copying, cross-region copying and recovery.
+- Configured Amazon Data Lifecycle Manager for automated EBS snapshots.
 
-Migration & Analytics: AWS DMS, AWS DataSync migrations from S3 to EFS, Storage Gateway.
+---
 
-IaC & Management: Infrastructure provisioning using CloudFormation stacks, AWS Systems Manager.
+🗄️ Amazon RDS Database Management & High Availability
 
-🏆 Honors & Achievements
+RDS • PostgreSQL • MySQL • Snapshots • Read Replicas
+
+- Launched PostgreSQL and MySQL Amazon RDS database instances.
+- Configured Security Groups for database connectivity.
+- Connected to RDS using pgAdmin and SQL Workbench.
+- Created and tested databases and tables using the RDS endpoint.
+- Created manual RDS snapshots and practiced backup and recovery.
+- Created Read Replicas in another AWS Region.
+- Practiced Read Replica promotion to a standalone database.
+- Connected an EC2 instance to an RDS database.
+- Explored Multi-AZ, Read Replicas, automated backups and high availability.
+
+---
+
+🏆 Achievements
+
 🥇 IEEE Best Paper Award
-Paper Title: Impact of Thermal Induced Resonant Frequency Shift on Resonant Inverters
 
-Conference: IEEE International Conference hosted by NIT Meghalaya
+Impact of Thermal Induced Resonant Frequency Shift on Resonant Inverters
 
-Core Research: Thermal drift behavior, Zero Voltage Switching (ZVS), and resonant inverter optimization.
+Presented at an IEEE Conference hosted by NIT Meghalaya.
 
-📈 GitHub Analytics & Streak
+The project focused on thermal effects, resonant frequency shift and Zero Voltage Switching (ZVS).
 
-🐍 Contribution Activity Graph
+---
+
+📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sadagana-Atchutha-Rao&show_icons=true&theme=tokyonight" />
+</p><p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadagana-Atchutha-Rao&layout=compact&theme=tokyonight" />
+</p>---
+
+🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Sadagana-Atchutha-Rao&theme=tokyonight" />
+</p>---
+
+👀 Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Sadagana-Atchutha-Rao&label=PROFILE+VIEWS&color=brightgreen&style=flat" />
+</p>---
+
 🤝 Connect With Me
-[
 
-](https://www.linkedin.com/in/sadagana-atchutha-rao/)
-[
+<p align="center"><a href="https://www.linkedin.com/in/sadagana-atchutha-rao/">
+<img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a><a href="mailto:atchuth142@gmail.com">
+<img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a><a href="https://github.com/Sadagana-Atchutha-Rao">
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a></p>---
 
-](mailto:atchuth142@gmail.com)
-[
+📚 Currently Learning
 
-](https://github.com/Sadagana-Atchutha-Rao)
+AWS Cloud
+    ↓
+Linux & EC2
+    ↓
+S3 / EBS / EFS / RDS
+    ↓
+ALB & Auto Scaling
+    ↓
+CloudWatch & Lambda
+    ↓
+EventBridge Automation
+    ↓
+Blue-Green Deployment
+    ↓
+Data Migration & Backup
+    ↓
+Cloud DevOps Engineer 🚀
+
+---
+
+💡 My Goal
+
+«Learn → Build → Automate → Deploy → Improve 🚀»
+
+⭐ Thanks for visiting my GitHub profile!
